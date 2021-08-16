@@ -42,7 +42,7 @@ const QMAKE_SEND_WEBAPP = 4;
 const QMAKE_SEND_NODEJS = 5;
 const QMAKE_SEND_NODEJS_LOCAL = 6;  
 
-const QUIZ_KEYWORD = "Dbh+Tk+z8M7WlQjO";
+const QUIZ_KEYWORD = "yEvP2XOoLPOOF1Ps";
 
 const USER_LOGIN_ANONYMOUS = "anonymous";
 const USER_EMAIL_ANONYMOUS = "anonymous@anonymous.nowhere";
@@ -52,13 +52,13 @@ const options =
 	name:"ENG123 - INTRODUCTION TO NIGERIAN LANGUAGES (WEEK 6)",
 	title: "ENG123 - INTRODUCTION TO NIGERIAN LANGUAGES (WEEK 6)",
 	id: 0,
-	numOfQuestions: 9,
-	notValuatedQuestionsArray: [1,1,1,1,1,1,1,1,1],
-	maxtime: 1800,
+	numOfQuestions: 16,
+	notValuatedQuestionsArray: [1,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1],
+	maxtime: 600,
 	maxmark: 10,
 	minmark: 0,
 	roundmark: 1,
-	questSlide: true,
+	questSlide: false,
 	lockRightAns: false,
 	computeMarkFnType: QMAKE_COMPUTE_MARK_BASIC,
 	randQuest: true,
@@ -66,7 +66,7 @@ const options =
 	verifyQuestBeforeNext: true,
 	verifyAtLeastOneChoice: false,
 	radioChoiceInsteadOkButton: false,
-	silentBeforeEndQuiz: true,
+	silentBeforeEndQuiz: false,
 	uniqueOkButton: false,
 	uniqueOkButtonPos: 'TOP',
 	showTimeout: true,
@@ -89,19 +89,19 @@ const options =
 	needSaveQuiz: false,
 	saveQuizMode: QMAKE_NO_SAVE,
 	saveQuizUrl: "",
-	allowRetakeQuiz: false,
+	allowRetakeQuiz: true,
 	maxNumRetake: 100,
 	upperMarkForRetake: 6,
 	warnNeedRetake: false,
-	isQuizAnonymous: true,
+	isQuizAnonymous: false,
 	needLogin: false,
 	reportNumOfColumns: 1,
 	hideTitleBar: false,
 	hideStatusBar: false,
-	includeProfile: false,
-	author: "",
-	argument: "",
-	company: "",
+	includeProfile: true,
+	author: "Hunter",
+	argument: "Practise LIN123. The details ae quite much.",
+	company: "Few Weeks To Exam",
 	quiz_date: "2021",
 	playSounds: false,
 	hasIntroText: false,
